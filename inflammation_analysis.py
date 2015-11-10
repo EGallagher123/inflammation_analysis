@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as pp
 
-data = mp.loadtxt(fname='../data/inflammation-01.csv', delimiter=',')
+data = np.loadtxt(fname='../data/inflammation-01.csv', delimiter=',')
 
-fig = pp.figure(figsize=10.0,3.0))
+fig = pp.figure(figsize=(10.0,3.0))
 
 axes1 = fig.add_subplot(1,3,1)
 axes2 = fig.add_subplot(1,3,2)
